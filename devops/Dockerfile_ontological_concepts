@@ -1,0 +1,5 @@
+FROM python:3.9
+
+COPY ontological_concepts.py /app/
+
+CMD ["python", "/app/ontological_concepts.py"]

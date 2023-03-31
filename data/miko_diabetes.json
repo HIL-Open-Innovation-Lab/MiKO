@@ -1,0 +1,50 @@
+ontological_data = [
+    {
+        "name": "Type 2 diabetes",
+        "description": "A chronic condition that affects the way the body processes blood sugar (glucose).",
+    },
+]
+
+genomics_data = [
+    {
+        "gene": "TCF7L2",
+        "variant": "rs7903146",
+        "risk": "Increased risk for Type 2 diabetes",
+    },
+]
+
+events_data = [
+    {
+        "event": "Diagnosis",
+        "criteria": "Fasting blood glucose levels ≥ 126 mg/dL or HbA1c ≥ 6.5%.",
+    },
+    {
+        "event": "Monitoring",
+        "parameters": ["blood glucose", "HbA1c", "lipid profile"],
+    },
+]
+
+system_layers_data = [
+    {
+        "system": "EHR",
+        "description": "Electronic health records to store patient data",
+    },
+    {
+        "system": "Telemedicine",
+        "description": "Remote monitoring and virtual consultations",
+    },
+]
+
+communication_layers_data = [
+    {
+        "type": "Interprofessional communication",
+        "description": "Coordination among primary care providers, endocrinologists, and other specialists",
+    },
+]
+
+care_processes_data = [
+    {
+        "process": "Diabetes care pathway",
+        "steps": ["prevention", "screening", "diagnosis", "treatment", "follow-up"],
+    },
+]
